@@ -1,0 +1,31 @@
+.from{
+    background: #83e2064f;
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 50rem;
+    border-radius: 12px;
+    text-align: center;
+
+}
+
+.newExpense{
+    font: inherit;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    background-color: #83e206d8;
+    color: white;
+    border-radius: 12px;
+    margin-right: 1rem;
+
+}
+
+.newExpense button:hover,
+.newExpense button:active{
+    background: #000;
+    border-color: #83e206;
+}
+
+.newExpense button.alternative:hover,
+.newExpense button.alternative:active{
+    background: #bb0c0c;
+}
